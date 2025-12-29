@@ -31,13 +31,21 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition shadow-xl shadow-indigo-200">
-                Start Free
-                <ArrowRight className="w-5 h-5" />
-              </button>
-              <button className="flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-full font-semibold text-lg transition">
-                View Leaderboard
-              </button>
+            <a
+              href="https://app.tryverity.xyz"
+              className="flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition shadow-xl shadow-indigo-200"
+            >
+              Start Free
+              <ArrowRight className="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://app.tryverity.xyz/Leaderboard"
+              className="flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-full font-semibold text-lg transition"
+            >
+              View Leaderboard
+            </a>
+
             </div>
 
             <p className="text-sm text-slate-500 flex items-center gap-2">
