@@ -30,12 +30,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
              <div className="w-6 h-6 bg-slate-800 rounded flex items-center justify-center text-white font-bold text-xs">P</div>
-             <span>© 2025 PredictFi. All rights reserved.</span>
+             <span>© 2025 Verity. All rights reserved.</span>
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition">Privacy</a>
             <a href="#" className="hover:text-white transition">Terms</a>
-            <a href="#" className="hover:text-white transition">Twitter</a>
+            <a href="https://x.com/tryverity_xyz" className="hover:text-white transition">Twitter</a>
           </div>
         </div>
       </div>
