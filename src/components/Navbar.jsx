@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
-            <img src="/images/phone-logo.png" className="w-14 h-14" />
+            <img src="/verity-new-logo.png" className="w-14 h-14" />
             <span className="md:block text-white hidden font-extrabold text-2xl tracking-tight">VERITY</span>
           </div>
 
